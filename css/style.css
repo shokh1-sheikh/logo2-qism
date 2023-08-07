@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1300px;
+  margin: 0px auto;
+  max-width: 100%;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.btn {
+  color: #1c3554;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  border-radius: 8px;
+  border: 1px solid #1c3554;
+}
+
+.btn:hover {
+  color: #fff;
+  background: #f72585;
+  border-color: transparent;
+}
+
+/* header */
+
+.site-header {
+  padding: 2.75rem 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding-left: 1.5rem;
+}
+
+.header-nav_item input {
+  width: 27.6875rem;
+  color: #808080;
+  font-family: "Montserrat";
+  font-size: 14px;
+  line-height: 24px;
+  padding: 0.75rem 2.5rem 0.75rem 1rem;
+  border-radius: 8px;
+  border: 1px solid#CCC;
+  outline: none;
+  background: url("../imagesz/SEARCH\ BAR.png") no-repeat;
+  background-position: 98% center;
+}
+
+.header-nav_item select {
+  color: #1c3554;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+  border: none;
+  outline: none;
+}
+
+.header-nav_item a {
+  color: #1c3554;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  line-height: 32px;
+  font-weight: 700;
+}
+
+.nav-btn {
+  padding: 0.5rem 2rem;
+  background-color: transparent;
+  color: #1c3554;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+/* courses */
+.programming {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.programming h4:nth-child(1) {
+  color: #808080;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.programming h4:nth-child(3) {
+  color: #1c3554;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 32px;
+}
+
+.programming-item h1 {
+  color: #1c3554;
+  font-family: "Rubik";
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 88px;
+}
+
+.programming-item p {
+  color: #808080;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+/* cards */
+
+.carusel-item {
+  position: relative;
+  width: 295px;
+height: 427px;
+}
+
+.carusel-item_job {
+  border-radius: 8px;
+  background: #4586d6;
+  width: 131px;
+  color: #fff;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  padding: 4px 0;
+  position: absolute;
+  top: 187px;
+  left: 67px;
+}
+
+.carusel-item h4 {
+  color: #1c3554;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-transform: capitalize;
+}
+
+.carusel-item p {
+  color: #f72585;
+  font-family: "Montserrat";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.carusel-item span {
+  color: #808080;
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.price span:nth-child(1) {
+  color: #ccc;
+  font-family: "Rubik";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  text-transform: capitalize;
+  text-decoration: line-through;
+}
+
+.price span:nth-child(2) {
+  color: #1c3554;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
