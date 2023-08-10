@@ -142,10 +142,33 @@ a {
 
 /* cards */
 
+.cards h2 {
+  color: #1c3554;
+  font-family: "Rubik";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: capitalize;
+}
+
+.card ul {
+  display: flex;
+  justify-content: space-between;
+  border: #fff 16px solid;
+}
+.card li {
+  padding: 1rem;
+}
+
+.card li:hover {
+  background-color: rgb(160, 159, 159);
+}
+
 .carusel-item {
   position: relative;
   width: 295px;
-height: 427px;
+  height: 427px;
 }
 
 .carusel-item_job {
@@ -163,6 +186,7 @@ height: 427px;
   position: absolute;
   top: 187px;
   left: 67px;
+  margin-top: 20px;
 }
 
 .carusel-item h4 {
@@ -192,6 +216,20 @@ height: 427px;
   line-height: 24px;
 }
 
+.card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card button {
+  width: 51px;
+  height: 51px;
+  border-radius: 50%;
+  border: none;
+  background-color: #f72585;
+}
+
 .price span:nth-child(1) {
   color: #ccc;
   font-family: "Rubik";
@@ -209,4 +247,59 @@ height: 427px;
   font-style: normal;
   font-weight: 500;
   line-height: 32px;
+}
+
+/* topic */
+
+.topic-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.topic-heading h1 {
+  color: #1c3554;
+  font-family: "Rubik";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.984px;
+}
+
+.topic-heading button {
+  border-radius: 8px;
+  background: #f72585;
+  border: none;
+  width: 288px;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 32px;
+}
+
+.topic-card_list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.topic-card_list li {
+  width: 296px;
+  height: 391px;
+  flex-shrink: 0;
+  opacity: 0.2;
+  background: #000;
+  color: #fff;
+  font-family: "Rubik";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin: 16px 0;
 }
